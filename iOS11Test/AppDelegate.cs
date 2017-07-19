@@ -16,10 +16,22 @@ namespace iOS11Test
             set;
         }
 
+        UIViewController root;
+        UINavigationController navigationController;
+
         public override bool FinishedLaunching(UIApplication application, NSDictionary launchOptions)
         {
             // Override point for customization after application launch.
             // If not required for your application you can safely delete this method
+            root = new NavigationMenuViewController();
+
+            navigationController = new UINavigationController(root);
+
+            Window = new UIWindow(UIScreen.MainScreen.Bounds)
+            {
+                RootViewController = navigationController
+            };
+            Window.MakeKeyAndVisible();
 
             return true;
         }
