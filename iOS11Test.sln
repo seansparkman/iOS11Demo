@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iOS11Test", "iOS11Test\iOS11Test.csproj", "{BB514425-4C00-4378-A265-2BFCEB36E17D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhone = Release|iPhone
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BB514425-4C00-4378-A265-2BFCEB36E17D}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{BB514425-4C00-4378-A265-2BFCEB36E17D}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{BB514425-4C00-4378-A265-2BFCEB36E17D}.Release|iPhone.ActiveCfg = Release|iPhone
+		{BB514425-4C00-4378-A265-2BFCEB36E17D}.Release|iPhone.Build.0 = Release|iPhone
+		{BB514425-4C00-4378-A265-2BFCEB36E17D}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{BB514425-4C00-4378-A265-2BFCEB36E17D}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{BB514425-4C00-4378-A265-2BFCEB36E17D}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{BB514425-4C00-4378-A265-2BFCEB36E17D}.Debug|iPhone.Build.0 = Debug|iPhone
+	EndGlobalSection
+EndGlobal
